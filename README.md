@@ -128,4 +128,3 @@ python hitl/hitl.py
 - [AI Safety Fundamentals](https://aisafetyfundamentals.com/)
 - [AI Red Teaming Guide](https://github.com/requie/AI-Red-Teaming-Guide)
 - [antoan.ai - AI Safety Vietnam](https://antoan.ai)
-
