@@ -151,6 +151,7 @@ Submit a working `.ipynb` notebook (or `.py` files) with:
 | **Total** | **60** | |
 
 **Code comments are required.** For each function/class, explain:
+
 - What does this component do?
 - Why is it needed? (What attack does it catch that other layers don't?)
 
@@ -215,6 +216,7 @@ class RateLimitPlugin(base_plugin.BasePlugin):
         #   If no: add current timestamp, return None (allow)
         pass
 ```
+
 </details>
 
 <details>
@@ -241,6 +243,7 @@ REASON: <one sentence>
 # WARNING: Do NOT use {variable} in instruction strings — ADK treats them as template variables.
 # Pass content to judge as the user message instead.
 ```
+
 </details>
 
 <details>
@@ -268,6 +271,7 @@ class AuditLogPlugin(base_plugin.BasePlugin):
         with open(filepath, "w") as f:
             json.dump(self.logs, f, indent=2, default=str)
 ```
+
 </details>
 
 <details>
@@ -289,6 +293,7 @@ results = await run_attacks(agent, runner, attack_queries)
 monitor.check_metrics()
 audit_log.export_json("security_audit.json")
 ```
+
 </details>
 
 <details>
@@ -312,6 +317,7 @@ graph.add_edge("llm", "judge")
 graph.add_edge("judge", "audit")
 graph.add_edge("audit", END)
 ```
+
 </details>
 
 <details>
@@ -338,6 +344,7 @@ class DefensePipeline:
 
         return response
 ```
+
 </details>
 
 ---
